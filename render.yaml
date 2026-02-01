@@ -15,4 +15,6 @@ services:
         value: /data/workspace
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true
+      - key: BIND
+        value: "lan"
 
